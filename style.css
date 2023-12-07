@@ -147,10 +147,16 @@ header nav ul li{
 }
 /*!-----FOOTER----*/
 footer{
-    background-color: rgb(131, 110, 150);
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+footer h2{
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 179, 0);
+    font-style: italic ;
 }
 footer div a img{
     width: 50px;
@@ -209,7 +215,8 @@ footer div a img{
 /*!---------footer-menu--------*/
 
 footer{
-    background-color: rgb(131, 110, 150);
+    background-color: black;
+    margin-top: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
