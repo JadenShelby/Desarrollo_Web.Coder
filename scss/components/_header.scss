@@ -1,0 +1,32 @@
+/*!----- HEADER------ */
+header {
+    background-color:nth($colores, 1 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+
+    h1 {
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color:nth($colores, 3 );
+        font-style: italic;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            margin: 10px;
+
+            li {
+                margin: 20px;
+
+                a {
+                    @extend %boton-header;                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+footer{
+    background-color: nth($colores, 1 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-size: 60px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:nth($colores, 3 );
+        font-style: italic ;
+
+    }
+    div{
+        a img{
+            width: 50px;
+            height: 40px;
+
+        }
+    }
+}

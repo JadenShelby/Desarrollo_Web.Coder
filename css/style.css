@@ -32,32 +32,34 @@ header nav ul li{
     margin: 20px;
 }
 
-.boton-nav{
+.header a{
     color: white;
     text-decoration: none;
     font-size: 25px;
 }
-.boton-nav:hover{
+header a:hover{
     color: rgb(255, 179, 0);
 }
-.boton-producto{
+
+/*!-----MAIN----*/
+
+
+.hero a{
     background-color: rgb(0, 0, 0);
     text-decoration: none;
     color:  white;
     padding: 10px;
     transition: 1s;    
 }
-.boton-producto:hover{
+.hero a:hover{
     background-color: rgb(255, 179, 0);
     color: black;
 }
-
-/*!-----MAIN----*/
 .hero{
     width: 100%;
     height: 400px;
     text-align: center;
-    background-image: url("./img/BarVikingo.jpg");
+    background-image: url("../img/BarVikingo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -79,19 +81,19 @@ header nav ul li{
     text-shadow: -1px 4px 5px rgba(0,0,0,0.44);
 }
 #foto-pizza{
-    background-image: url(./img/pizza-peperoni.jpg);
+    background-image: url("../img/pizza-peperoni.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px;
 }
 #foto-hamburguesa{
-    background-image: url(./img/HAMBURGUESA.avif);
+    background-image:url("../img/HAMBURGUESA.avif");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px;
 }
 #foto-alitas{
-    background-image: url(./img/alitas.avif);
+    background-image: url("../img/alitas.avif");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px;
